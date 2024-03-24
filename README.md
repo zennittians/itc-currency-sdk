@@ -70,10 +70,10 @@ const record = itcCurrency.getRecordByName('artem')
 ```
 ```javascript
 const price = getPriceByName('artem')
-const tx = await itcCurrency.rent('artem', 'https://twitter.com/halfin/status/1072874040', price)
+const tx = await itcCurrency.rent('artem', 'https://twitter.com/', price)
 ```
 ```javascript
-const tx = await itcCurrency.updateURL('artem', 'https://twitter.com/halfin/status/321214052')
+const tx = await itcCurrency.updateURL('artem', 'https://twitter.com')
 ```
 ```javascript
 const tx = await itcCurrency.setNameForRenter('artem')
